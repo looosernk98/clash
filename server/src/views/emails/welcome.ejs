@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('../partials/head') %>
+
+<body>
+    <div class="email-container">
+        <div class="header">
+            <h1>Welcome to clash!</h1>
+        </div>
+        <div class="content">
+            <p>Hi <%= name %>,</p>
+            <p>We’re thrilled to have you join <strong>clash</strong>! Our platform is 
+                designed to help you .
+            </p>
+            <p>Here’s how to get started:</p>
+            <ol>
+                <li>Log in to your account.</li>
+                <li>Complete your profile for personalized features.</li>
+                <li>Explore our tools and start your journey!</li>
+            </ol>
+            <p>If you have any questions, feel free to reach out to our support team at 
+                <a href="mailto:support@yourapp.com">support@clash.com</a>.
+            </p>
+        </div>
+        <%- include('../partials/footer'); %>
+    </div>
+</body>
+</html>
